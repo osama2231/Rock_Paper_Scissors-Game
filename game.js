@@ -6,7 +6,7 @@ function computerPlay(){
     return randomly; 
 }
 
-// this function returns the winner between the user and the computer of single round
+// this function returns the winner between the user and the computer of one round
 function playRound(playerSelection, computerSelection) {
     let userWon = 0, computerWon = 0;
 
