@@ -55,9 +55,6 @@ function playRound(playerSelection, computerSelection) {
     else if((playerSelection.toLowerCase() === "scissors" || playerSelection.toLowerCase() === "scissor") && (computerSelection.toLowerCase() === "paper"))
         content.textContent = "You Won!!!  Scissors cuts the Paper. You won " + ++playerWon + " times";
 
-    else
-        content.textContent = "You have entered a wrong string. You should enter one of the followings \'Rock\', \'Paper\' or \'Scissors\'. You can type them as captial letters or small letters.";
-
     results.appendChild(content);
 }
 
