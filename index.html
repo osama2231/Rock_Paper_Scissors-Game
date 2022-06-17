@@ -5,10 +5,33 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rock Paper Scissors Game</title>
+        <style>
+            body{
+                background: black;
+                text-align: center;
+            }
+            h1, p, div{
+                color: white;
+            }
+            .results{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+            .restart{
+                margin-top: 16px;
+            }
+        </style>
+        <script src="game.js" defer></script>
     </head>
     <body>
-        <h1>Welcome to the Rock, Paper or Scissors Game.</h1>
-        <p>Hope you lose against the computer. Hehehehehehehe</p>
-        <script src="game.js"></script>
+        <h1>Welcome to the ESCAPE ROOM</h1>
+        <p>Inside this room you have a game you need to play. If you won the game you'll escape the room.
+             But if you lose, you'll get killed. Hope you lose. hehehehhehe</p>
+        <button value="rock">ROCK</button>
+        <button value="paper">PAPER</button>
+        <button value="scissors">SCISSORS</button>
+        <br><br><br>
+        <div class="results"></div>
     </body>
 </html>
